@@ -13,7 +13,7 @@ namespace Tyuiu.BabenkoIV.Sprint3.Task0.V3.Lib
                 sum += Math.Sin(i) * constant;
             }
 
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }
