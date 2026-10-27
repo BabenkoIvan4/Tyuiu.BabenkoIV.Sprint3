@@ -15,7 +15,7 @@ namespace Tyuiu.BabenkoIV.Sprint3.Task1.V25.Lib
                 k++;
             }
 
-            return product;
+            return Math.Round(product,3);
         }
     }
 }
